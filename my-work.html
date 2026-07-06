@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Work — Marc Berliner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon-apple-touch.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="home">
+  <header class="home-nav">
+    <a class="home-nav__brand" href="index.html">
+      <img src="assets/images/logo.svg" alt="" class="home-nav__logo" width="48" height="48" />
+      <span>Marc Berliner Design</span>
+    </a>
+    <nav class="home-nav__links">
+      <a href="my-work.html">My work</a>
+      <a href="about.html">About</a>
+      <a href="assets/images/Marc%20Berliner%20Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    </nav>
+    <a class="btn btn--primary btn--small" href="mailto:mlberliner1@gmail.com">Contact me</a>
+    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="mobile-menu-toggle__line"></span>
+      <span class="mobile-menu-toggle__line"></span>
+      <span class="mobile-menu-toggle__line"></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="my-work.html">My work</a>
+    <a href="about.html">About</a>
+    <a href="assets/images/Marc%20Berliner%20Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    <a class="btn btn--primary" href="mailto:mlberliner1@gmail.com">Contact me</a>
+  </div>
+
+  <main>
+    <section class="work work--page">
+      <h1 class="section-heading load-fade-up">My Work</h1>
+
+      <div class="case-study-grid">
+        <a class="case-study" href="case-study-spire.html" data-reveal>
+          <div class="case-study__media"></div>
+          <div class="case-study__row">
+            <p class="case-study__title"><span>Scaling a Multi-Brand Orthopedic Platform</span></p>
+            <span class="btn btn--primary btn--pill-fixed">View case study</span>
+          </div>
+        </a>
+        <a class="case-study" href="case-study-childrens-wisconsin.html" data-reveal>
+          <div class="case-study__media"></div>
+          <div class="case-study__row">
+            <p class="case-study__title"><span>Transforming a Children's Hospital Website Through Research and Strategy</span></p>
+            <span class="btn btn--primary btn--pill-fixed">View case study</span>
+          </div>
+        </a>
+        <a class="case-study" href="case-study-rush.html" data-reveal>
+          <div class="case-study__media"></div>
+          <div class="case-study__row">
+            <p class="case-study__title"><span>Shaping the Digital Experience of an Academic Health System</span></p>
+            <span class="btn btn--primary btn--pill-fixed">View case study</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta__decor" aria-hidden="true">
+        <img src="assets/images/cube-a.png" alt="" class="cta__cube cta__cube--1" />
+        <img src="assets/images/cube-b.png" alt="" class="cta__cube cta__cube--2" />
+        <img src="assets/images/cube-b.png" alt="" class="cta__cube cta__cube--3" />
+      </div>
+      <p class="cta__title" data-reveal>Let's build better products together</p>
+      <div class="cta__action" data-reveal><a class="btn btn--primary" href="mailto:mlberliner1@gmail.com">Contact me</a></div>
+    </section>
+  </main>
+
+  <footer class="home-footer">
+    <div class="home-footer__brand">
+      <img src="assets/images/logo.svg" alt="" class="home-footer__logo" width="48" height="48" />
+      <span>Copyright &copy; Marc Berliner <span data-year></span></span>
+    </div>
+    <a href="https://www.linkedin.com/in/marc-l-berliner/" class="home-footer__social" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/linkedin.svg" alt="" width="38" height="38" />
+    </a>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/mobile-menu.js"></script>
+  <script src="js/reveal.js"></script>
+</body>
+</html>

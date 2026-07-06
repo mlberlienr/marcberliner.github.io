@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marc Berliner — Product Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon-apple-touch.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="home">
+  <header class="home-nav">
+    <a class="home-nav__brand" href="index.html">
+      <img src="assets/images/logo.svg" alt="" class="home-nav__logo" width="48" height="48" />
+      <span>Marc Berliner Design</span>
+    </a>
+    <nav class="home-nav__links">
+      <a href="my-work.html">My work</a>
+      <a href="about.html">About</a>
+      <a href="assets/images/Marc%20Berliner%20Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    </nav>
+    <a class="btn btn--primary btn--small" href="mailto:mlberliner1@gmail.com">Contact me</a>
+    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="mobile-menu-toggle__line"></span>
+      <span class="mobile-menu-toggle__line"></span>
+      <span class="mobile-menu-toggle__line"></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="my-work.html">My work</a>
+    <a href="about.html">About</a>
+    <a href="assets/images/Marc%20Berliner%20Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    <a class="btn btn--primary" href="mailto:mlberliner1@gmail.com">Contact me</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero__decor" aria-hidden="true">
+        <img src="assets/images/cube-a.png" alt="" class="hero__cube hero__cube--1" />
+        <img src="assets/images/cube-b.png" alt="" class="hero__cube hero__cube--2" />
+        <img src="assets/images/cube-a.png" alt="" class="hero__cube hero__cube--3" />
+        <img src="assets/images/cube-b.png" alt="" class="hero__cube hero__cube--4" />
+      </div>
+      <div class="hero__content">
+        <div class="hero__heading-group">
+          <h1 class="hero__title">
+            <span class="hero__title-line">Marc Berliner</span>
+            <span class="hero__title-line">Product Designer</span>
+          </h1>
+          <p class="hero__subtitle load-fade-up">
+            I focus on transforming complex challenges into intuitive digital experiences. I create accessible,
+            user-centered products grounded in research, strategy, and thoughtful design.
+          </p>
+        </div>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="my-work.html">See my work</a>
+          <a class="btn btn--secondary" href="about.html">About me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <h2 class="section-heading" data-reveal>My Work</h2>
+
+      <!-- TODO: replace these placeholder mockup images and links with real case-study screenshots and pages -->
+      <div class="case-study-grid">
+        <a class="case-study" href="case-study-spire.html" data-reveal>
+          <div class="case-study__media"></div>
+          <div class="case-study__row">
+            <p class="case-study__title"><span>Scaling a Multi-Brand Orthopedic Platform</span></p>
+            <span class="btn btn--primary btn--pill-fixed">View case study</span>
+          </div>
+        </a>
+        <a class="case-study" href="case-study-childrens-wisconsin.html" data-reveal>
+          <div class="case-study__media"></div>
+          <div class="case-study__row">
+            <p class="case-study__title"><span>Transforming a Children's Hospital Website Through Research and Strategy</span></p>
+            <span class="btn btn--primary btn--pill-fixed">View case study</span>
+          </div>
+        </a>
+        <a class="case-study" href="case-study-rush.html" data-reveal>
+          <div class="case-study__media"></div>
+          <div class="case-study__row">
+            <p class="case-study__title"><span>Shaping the Digital Experience of an Academic Health System</span></p>
+            <span class="btn btn--primary btn--pill-fixed">View case study</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="tools">
+      <h2 class="tools__label" data-reveal>Tools I Use</h2>
+      <div class="tools__viewport" data-reveal>
+        <div class="tools__track">
+          <div class="tools__row">
+            <img src="assets/images/figma-logo.svg" alt="Figma" class="tools__logo" />
+            <span class="tools__dot" aria-hidden="true"></span>
+            <img src="assets/images/miro-logo.svg" alt="Miro" class="tools__logo" />
+            <span class="tools__dot" aria-hidden="true"></span>
+            <img src="assets/images/jira-logo.png" alt="Jira" class="tools__logo tools__logo--mono tools__logo--small" />
+            <span class="tools__dot" aria-hidden="true"></span>
+            <img src="assets/images/confluence-logo.png" alt="Confluence" class="tools__logo tools__logo--mono tools__logo--small" />
+            <span class="tools__dot" aria-hidden="true"></span>
+            <img src="assets/images/adobe-logo.png" alt="Adobe" class="tools__logo tools__logo--mono" />
+            <span class="tools__dot" aria-hidden="true"></span>
+            <img src="assets/images/htmlcssjs-logo.png" alt="HTML, CSS, JS" class="tools__logo tools__logo--mono" />
+            <span class="tools__dot" aria-hidden="true"></span>
+          </div>
+          <div class="tools__row" aria-hidden="true">
+            <img src="assets/images/figma-logo.svg" alt="" class="tools__logo" />
+            <span class="tools__dot" aria-hidden="true"></span>
+            <img src="assets/images/miro-logo.svg" alt="" class="tools__logo" />
+            <span class="tools__dot" aria-hidden="true"></span>
+            <img src="assets/images/jira-logo.png" alt="" class="tools__logo tools__logo--mono tools__logo--small" />
+            <span class="tools__dot" aria-hidden="true"></span>
+            <img src="assets/images/confluence-logo.png" alt="" class="tools__logo tools__logo--mono tools__logo--small" />
+            <span class="tools__dot" aria-hidden="true"></span>
+            <img src="assets/images/adobe-logo.png" alt="" class="tools__logo tools__logo--mono" />
+            <span class="tools__dot" aria-hidden="true"></span>
+            <img src="assets/images/htmlcssjs-logo.png" alt="" class="tools__logo tools__logo--mono" />
+            <span class="tools__dot" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TODO: replace with a real testimonial (quote, name, and photo) -->
+    <section class="testimonial">
+      <img src="assets/images/quote-icon.png" alt="" class="testimonial__icon" aria-hidden="true" data-reveal />
+      <p class="testimonial__quote" data-reveal>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat.
+      </p>
+      <div class="testimonial__author" data-reveal>
+        <img src="assets/images/avatar.jpg" alt="" class="testimonial__avatar" />
+        <span>John Smith, Manager</span>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta__decor" aria-hidden="true">
+        <img src="assets/images/cube-a.png" alt="" class="cta__cube cta__cube--1" />
+        <img src="assets/images/cube-b.png" alt="" class="cta__cube cta__cube--2" />
+        <img src="assets/images/cube-b.png" alt="" class="cta__cube cta__cube--3" />
+      </div>
+      <p class="cta__title" data-reveal>Let's build better products together</p>
+      <div class="cta__action" data-reveal><a class="btn btn--primary" href="mailto:mlberliner1@gmail.com">Contact me</a></div>
+    </section>
+  </main>
+
+  <footer class="home-footer">
+    <div class="home-footer__brand">
+      <img src="assets/images/logo.svg" alt="" class="home-footer__logo" width="48" height="48" />
+      <span>Copyright &copy; Marc Berliner <span data-year></span></span>
+    </div>
+    <a href="https://www.linkedin.com/in/marc-l-berliner/" class="home-footer__social" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/linkedin.svg" alt="" width="38" height="38" />
+    </a>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/mobile-menu.js"></script>
+  <script src="js/reveal.js"></script>
+</body>
+</html>

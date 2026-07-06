@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Marc Berliner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon-apple-touch.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="home">
+  <header class="home-nav">
+    <a class="home-nav__brand" href="index.html">
+      <img src="assets/images/logo.svg" alt="" class="home-nav__logo" width="48" height="48" />
+      <span>Marc Berliner Design</span>
+    </a>
+    <nav class="home-nav__links">
+      <a href="my-work.html">My work</a>
+      <a href="about.html">About</a>
+      <a href="assets/images/Marc%20Berliner%20Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    </nav>
+    <a class="btn btn--primary btn--small" href="mailto:mlberliner1@gmail.com">Contact me</a>
+    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="mobile-menu-toggle__line"></span>
+      <span class="mobile-menu-toggle__line"></span>
+      <span class="mobile-menu-toggle__line"></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="my-work.html">My work</a>
+    <a href="about.html">About</a>
+    <a href="assets/images/Marc%20Berliner%20Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    <a class="btn btn--primary" href="mailto:mlberliner1@gmail.com">Contact me</a>
+  </div>
+
+  <main>
+    <section class="about-hero">
+      <h1 class="about-hero__heading load-fade-up">About Me</h1>
+      <div class="about-hero__row">
+        <div class="about-hero__bio">
+          <p data-reveal>
+            I'm Marc Berliner, a Product Designer based in Denver, Colorado. I studied Industrial and Interactive
+            Design at Syracuse University, where I built a strong foundation in human-centered design that
+            continues to shape my work today.
+          </p>
+          <p data-reveal>
+            Over the past several years, I've focused on designing digital experiences for healthcare
+            organizations. I've partnered with hospitals and academic medical centers to improve experiences for
+            patients, providers, caregivers, researchers, and employees. My work spans product strategy, user
+            research, UX design, design systems, and accessibility, with a focus on creating intuitive, inclusive
+            experiences that solve real user problems.
+          </p>
+          <p data-reveal>
+            Before moving into digital product design, I designed consumer products and packaging for beauty
+            brands, where I learned to balance aesthetics with functionality. I also worked in behavioral
+            healthcare, supporting patients receiving treatment for addiction and mental health conditions. That
+            experience strengthened my empathy and continues to influence how I approach research, collaboration,
+            and design.
+          </p>
+          <p data-reveal>
+            Outside of work, I enjoy skiing, hiking, working out, and exploring the fine arts through drawing,
+            painting, and sculpting.
+          </p>
+        </div>
+        <div class="about-hero__photo" data-reveal>
+          <img src="assets/images/marc-headshot.png" alt="Portrait of Marc Berliner" />
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta__decor" aria-hidden="true">
+        <img src="assets/images/cube-a.png" alt="" class="cta__cube cta__cube--1" />
+        <img src="assets/images/cube-b.png" alt="" class="cta__cube cta__cube--2" />
+        <img src="assets/images/cube-b.png" alt="" class="cta__cube cta__cube--3" />
+      </div>
+      <p class="cta__title" data-reveal>Let's build better products together</p>
+      <div class="cta__action" data-reveal><a class="btn btn--primary" href="mailto:mlberliner1@gmail.com">Contact me</a></div>
+    </section>
+  </main>
+
+  <footer class="home-footer">
+    <div class="home-footer__brand">
+      <img src="assets/images/logo.svg" alt="" class="home-footer__logo" width="48" height="48" />
+      <span>Copyright &copy; Marc Berliner <span data-year></span></span>
+    </div>
+    <a href="https://www.linkedin.com/in/marc-l-berliner/" class="home-footer__social" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+      <img src="assets/images/linkedin.svg" alt="" width="38" height="38" />
+    </a>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/mobile-menu.js"></script>
+  <script src="js/reveal.js"></script>
+</body>
+</html>
