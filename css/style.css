@@ -668,10 +668,11 @@ body.home .btn--pill-fixed {
 .testimonial__icon {
   width: 64px;
   height: 64px;
+  transform: rotate(6.63deg);
 }
 
 .testimonial__quote {
-  max-width: 700px;
+  max-width: 62rem;
   margin: 0;
   font-weight: 600;
   font-size: clamp(1.125rem, 2vw, 1.5rem);
@@ -680,18 +681,8 @@ body.home .btn--pill-fixed {
 }
 
 .testimonial__author {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
   font-size: 1.5rem;
   color: #bdc4cb;
-}
-
-.testimonial__avatar {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  object-fit: cover;
 }
 
 /* CTA */
