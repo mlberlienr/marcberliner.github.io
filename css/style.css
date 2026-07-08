@@ -676,8 +676,8 @@ body.home .btn--pill-fixed {
   max-width: 62rem;
   margin: 0;
   font-weight: 600;
-  font-size: clamp(1.125rem, 2vw, 1.5rem);
-  line-height: 1.4;
+  font-size: 1.125rem;
+  line-height: 1.5;
   color: #ebedef;
 }
 
