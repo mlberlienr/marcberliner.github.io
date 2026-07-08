@@ -767,7 +767,7 @@ body.home .btn--pill-fixed {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: max(0px, calc((100% - var(--content-max-width)) / 2));
+  padding-left: max(clamp(1.25rem, 6vw, 7.5rem), calc((100% - var(--content-max-width)) / 2));
   padding-right: max(0px, calc((100% - var(--content-max-width)) / 2));
   background: #1f2124;
 }
@@ -779,7 +779,7 @@ body.home .btn--pill-fixed {
   gap: 2rem;
   flex: 1 1 420px;
   box-sizing: border-box;
-  padding: clamp(2.5rem, 8vw, 6rem) 1rem clamp(2.5rem, 8vw, 6rem) clamp(1.25rem, 6vw, 7.5rem);
+  padding: clamp(2.5rem, 8vw, 6rem) 1rem clamp(2.5rem, 8vw, 6rem) 0;
 }
 
 .cs-hero__content h1 {
@@ -830,7 +830,7 @@ body.home .btn--pill-fixed {
   }
 
   .cs-hero--bleed .cs-hero__content {
-    padding: clamp(2.5rem, 8vw, 6rem) 0 clamp(2.5rem, 8vw, 6rem) clamp(1.25rem, 6vw, 7.5rem);
+    padding: clamp(2.5rem, 8vw, 6rem) 0 clamp(2.5rem, 8vw, 6rem) 0;
   }
 
   .cs-hero--bleed .cs-hero__media {
