@@ -844,6 +844,12 @@ body.home .btn--pill-fixed {
   }
 }
 
+@media (max-width: 720px) {
+  .cs-hero--bleed .cs-hero__media {
+    padding-bottom: 0;
+  }
+}
+
 .cs-body {
   background: #3b3f44;
 }
